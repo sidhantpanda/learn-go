@@ -29,4 +29,22 @@ func main() {
 	name6 := "Batman"
 
 	fmt.Println(name4, name5, name6)
+
+	// ints
+	var age1 int = 30
+	var age2 = 40
+	age3 := 50
+	var age4 int // This will be 0
+
+	fmt.Println(age1, age2, age3, age4)
+
+	// bits & memory
+
+	// int8, int16, int32, int64
+	// uint8, uint16, uint32, uint64
+	// byte is an alias for uint8
+	// rune is an alias for int32
+	// int is 32 or 64 bits depending on the system
+	// uint is 32 or 64 bits depending on the system
+
 }
